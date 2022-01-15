@@ -4,6 +4,31 @@ function alpha() {
     return "A"
 }
 
-function beta() {
+console.log(beta())
+    // console.log(gamma()) // Reference Error
+
+function beta() { // Function defined like this are hosted
     return "B"
 }
+
+let gamma = function() { //  Function defined like this are  not hosted because they are act like a variable
+    return "C"
+}
+
+
+console.log(beta())
+    // console.log(gamma())
+
+function area(height, width) {
+    if (!width) {
+        // if (typeof width == 'undefined') {
+        return Math.PI * height * height
+    }
+
+    // console.log('height = ', height, 'width = ', width)
+    return height * width
+
+}
+
+console.log(' area 3,4 ', area(3, 4))
+console.log(' area 4 ', area(4))
