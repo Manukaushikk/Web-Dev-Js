@@ -339,3 +339,61 @@
 
 
 // document.write(a[1] + "<br>")
+
+// Looping Array Elements
+// var fruits = ["Mango", "Orange", "Apple", "Kiwi"];
+// var veg = ["soya", "panner"];
+
+// Array length
+// console.log(fruits.length);
+// console.log(fruits[0]);
+// console.log(fruits.length - 1);
+
+// Remove an Element from an Array
+// console.log(fruits.pop()); //delete at the last
+// console.log(fruits.shift()); //remove mango from the front
+
+// Add an Element to an Array
+// console.log(fruits.unshift('Mirch')); //add to the front
+// console.log(fruits.push('panner')); //add to the front
+
+// indexOf() ==  searches an element of an array and returns its position
+// console.log(fruits.indexOf('Apple'));
+
+// concat( )  ==  joins two or more arrays and returns a result
+// console.log(fruits.concat(veg));
+
+// find() == returns the first value of an array element that passes a test
+// var totn_array = [-2, -1, 0, 7, 2];
+
+// function greater_than_zero(totn_element) {
+//     return totn_element > 0;
+// }
+
+// console.log(totn_array.find(greater_than_zero));
+
+// findIndex() == returns the first index of an array element that passes a test
+
+// const array1 = [15, 14, 2, 170, 12];
+
+// const isLargeNumber = (element) => element > 15;
+
+// console.log(array1.findIndex(isLargeNumber));
+
+// forEach() == calls a function for each element
+// fruits.forEach(element => console.log(element));
+
+// includes() == checks if an array contains a specified element
+// console.log(fruits.includes("sab"))
+
+// sort() == sorts the elements alphabetically in strings and in ascending order
+// fruits.sort();
+// console.log(fruits);
+
+// slice() ==	selects the part of an array and returns the new array
+// var fruits = ["Mango", "Orange", "Apple", "Kiwi"];
+// console.log(fruits.slice(3));
+
+// splice() == removes or replaces existing elements and/or adds new elemen
+// fruits.splice(0, 0, 'dio');
+// console.log(fruits);
