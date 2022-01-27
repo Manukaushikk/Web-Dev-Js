@@ -397,3 +397,28 @@
 // splice() == removes or replaces existing elements and/or adds new elemen
 // fruits.splice(0, 0, 'dio');
 // console.log(fruits);
+
+//  some function
+// var ages = [10, 12, 18, 15];
+// document.write(ages + "<br><br>")
+
+// var b = ages.some(checkAdult);
+// document.write(b + "<br><br>")
+
+
+// function checkAdult(age) {
+//     return age >= 18;
+
+// }
+
+// Find() Function
+
+// var ages = [10, 12, 18, 15];
+// document.write(ages + "<br><br>")
+
+// var b = ages.find(checkAdult);
+// document.write(b + "<br><br>")
+
+// function checkAdult(age) {
+//     return age >= 18;
+// }
