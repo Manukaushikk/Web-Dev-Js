@@ -422,3 +422,255 @@
 // function checkAdult(age) {
 //     return age >= 18;
 // }
+
+//   -> OBJECT <-
+
+// var a = {
+//     fname: 'Mannan',
+//     lname: 'Joa',
+//     age: 12,
+//     email: 'hello@gmail.com',
+//     favMovies: ['Dhoom', 'Robot', 'Hum'],
+//     living: {
+//         'city': 'Chandigarh',
+//         'country': 'India'
+//     },
+//     salary: function() {
+//         return 3500000;
+//     },
+//     fullname: function() {
+//         return this.fname + " " + this.lname;
+//     }
+
+// }
+// console.log(a); 
+// document.write(a.favMovies[1])
+// document.write(a.salary())
+// document.write(a.fullname())
+// document.write(a.living.city)
+
+
+//   -> OBJECT PART 2 <-
+// var person = new Object();
+
+// person.firstName = 'Ram';
+// person.lastName = 'Kumar';
+// person.age = 25;
+
+// console.log(person);
+// document.write(person['firstName'])
+
+// ARRAY OF OBJECTS <-
+
+// var student = [
+//     { Name: "Ram", Age: 15 },
+//     { Name: "Joy", Age: 16 },
+//     { Name: "Kiro", Age: 14 },
+// ];
+// console.log(student);
+
+// for (var a = 0; a < student.length; a++) {
+//     document.write(student[a].Name + " " + student[a].Age + "<br>")
+
+// }
+
+// CONST VARIABLE WITH ARRAY AND OBJECT
+
+// const a = [10, 20, 30];
+
+// a = 30; // In This we cannot declare again ( because it is const ) 
+// a[1] = 80;
+// console.log(a);
+
+// In the below we do not declare again and again the variable in const
+// const a = {
+//     name: "Ram",
+//     age: 24
+// };
+
+// a.name = "Raj Kapoor";
+// a.age = "35";
+// console.log(a);
+
+// TYPES OF LOOPS
+// 1. FOR LOOP
+
+// var obj = {
+//     fname: "Raj",
+//     lname: "Kapoor",
+//     age: 21,
+//     email: "abc@gmail.com"
+// };
+// for (var key in obj) {
+//     document.write(key + ":" + obj[key] + "<br>");
+// }
+
+// Array -- Map () function
+// var ary = [11, 4, 9, 16];
+
+// var b = ary.map(test);
+// document.write(b);
+
+// function test(x) {
+//     return x * 10;
+// }
+
+// Another Ex
+// var ary = [
+//     { fname: "Raj", "lname": "Kumar" },
+//     { fname: "ytrt", "lname": "lohu" },
+//     { fname: "opiy", "lname": "tyagi" }
+
+// ];
+// var b = ary.map(test);
+// document.write(b);
+
+// function test(x) {
+//     return x.fname + " " + x.lname;
+// }
+
+// String Methods
+// 1. Length
+// var str = "JavaScript is a Great Language";
+// var a = str.length;
+
+// document.write(a);
+
+
+// 2. tolower Case
+// var str = "JavaScript is a Great Language";
+// var a = str.toLowerCase();
+
+// document.write(a);
+
+
+// 3. toUppercase
+// var str = "JavaScript is a Great Language";
+// var a = str.toUpperCase();
+
+// document.write(a);
+
+
+// 4. includes 
+// var str = "JavaScript is a Great Language";
+// var a = str.includes("y");
+
+// document.write(a);
+
+// 5. starswith 
+// var str = "JavaScript is a Great Language";
+// var a = str.startsWith("J");
+
+// document.write(a);
+
+// 6. Endswith 
+// var str = "JavaScript is a Great Language";
+// var a = str.endsWith("J");
+
+// document.write(a);
+
+// 6. Endswith 
+// var str = "JavaScript is a Great Language";
+// var a = str.search("J"); //When they got no matching they return -1
+
+// document.write(a);
+
+// 7.match
+
+// var str = "JavaScript is a Great Language";
+// var a = str.match(/is/g);
+
+// document.write(a);
+
+// 8.lastindexof()
+
+// var str = "JavaScript is a Great Language";
+// var a = str.lastIndexOf("is");
+
+// document.write(a);
+
+// 9. replace()
+
+// var str = "JavaScript is a Great Language";
+// var a = str.replace("is", "is id ");
+
+// document.write(a);
+
+// 10. trim()
+
+// var str = "JavaScript is a Great Language";
+// var str = "      JavaScript     ";
+// var a = str.trim();
+// alert(a)
+// document.write(a);
+
+// 11. charAt()
+// var str = "JavaScript is a Great Language";
+// var a = str.charAt(3);
+
+// document.write(a);
+
+// 12. CharCodeAt()
+// var str = "JavaScript is a Great Language";
+// var a = str.charCodeAt(1); // this is for ASCII code
+
+// document.write(a);
+
+// 13. fromCharCode()
+// var str = "JavaScript is a Great Language";
+// var a = String.fromCharCode(68); //This is running on ASCII Table 
+
+// document.write(a);
+
+// 14. Concat()
+// var str = "JavaScript is a Great Language";
+// var str2 = "hello";
+
+// var a = str.concat(str2);
+
+// document.write(a);
+
+// 15. split()
+// var str = "JavaScript is a Great Language";
+// var a = str.split(" ");
+
+// document.write(a);
+
+// 16. repeat()
+// var str = "JavaScript is a Great Language";
+// var a = str.repeat(5);
+
+// document.write(a);
+
+// 17. slice()
+// var str = "JavaScript is a Great Language";
+// var a = str.slice(3);//3 se start 
+
+// document.write(a);
+
+// 18. substr()
+var str = "JavaScript is a Great Language";
+var a = str.substr("is", "is id ");
+
+document.write(a);
+
+// 19. substring()
+
+// var str = "JavaScript is a Great Language";
+// var a = str.replace("is", "is id ");
+
+// document.write(a);
+
+// 20. toString()
+
+// var str = "JavaScript is a Great Language";
+// var a = str.replace("is", "is id ");
+
+// document.write(a);
+
+// 21. valueof()
+
+// var str = "JavaScript is a Great Language";
+// var a = str.replace("is", "is id ");
+
+// document.write(a);
