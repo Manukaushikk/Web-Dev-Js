@@ -649,10 +649,10 @@
 // document.write(a);
 
 // 18. substr()
-var str = "JavaScript is a Great Language";
-var a = str.substr("is", "is id ");
+// var str = "JavaScript is a Great Language";
+// var a = str.substr("is", "is id ");
 
-document.write(a);
+// document.write(a);
 
 // 19. substring()
 
@@ -674,3 +674,184 @@ document.write(a);
 // var a = str.replace("is", "is id ");
 
 // document.write(a);
+
+// Number METHOD
+
+// var a = "99";
+// var a = "99 88";
+// var a = true;
+// var a = false;
+
+// var num = Number(a);
+// document.write(num);
+
+// parseInt && parseFloat
+
+
+// var a = "99";
+// var a = "88 99 77";
+// var a = "153.15";
+
+// var num = parseInt(a); //Sabse phale int ko return krta hai 
+
+// document.write(num);
+
+// var a = "50.25";
+// var a = "he was 50";
+// var num = parseFloat(a);
+
+// document.write(num);
+
+// isFinite && isInteger
+
+// var a = "100"; //True
+// var a = 100; //True
+// var a = -100; //True
+// var a = -1.15; //True
+// var a = Infinity; //False
+// var a = 10.25; //true
+
+// var num = isFinite(a);
+// var num = Number.isInteger(a);
+
+// document.write(num);
+
+// toFixed && toPrecision
+
+// var a = 5.2578;
+// var a = 5.2578;
+
+// var num = a.toPrecision(3);
+// var num = a.toFixed(3);
+
+// document.write(num);
+// document.write(num);
+
+// MATHS Methods
+// 1. Ceil()
+// var a = Math.ceil(6.1); //Upper value dega (like => 7)
+// document.write(a)
+
+// 2. floor()
+// var a = Math.floor(6.1); //downward value dega (like => 6)
+// document.write(a)
+
+// 3. round()
+// var a = Math.round(6.1); // Return nearest Integer value (like => 6)
+// document.write(a)
+
+// 4. trunc()
+// var a = Math.trunc(6.1); // Return Integer value and decimal ke baad ki digit hta deta hai (like === 6.1 => 6  )
+// document.write(a)
+
+// 5. max(x,y,z,......,n)
+// var a = Math.max(8, 52, 7, 1, 57, 90); 
+// document.write(a)
+
+// 6. min(x,y,z,.....,n)
+// var a = Math.min(8, 52, 7, 1, 57, 90); 
+// document.write(a)
+
+// 7. sqrt() // square Root
+// var a = Math.sqrt(25);
+// document.write(a)
+
+// 8. cbrt() // Cubic Root
+// var a = Math.cbrt(125);
+// document.write(a)
+
+// 9. pow() 
+// var a = Math.pow(4, 3); // 4 ki power 3 => 4*4*4
+// document.write(a)
+
+// 10. random()
+// var a = Math.random(); // o - 1 Random values between 0 to 1
+// var a = Math.floor(Math.random() * 10) + 1; // o - 10 Random values between 0 to 10
+// document.write(a)
+
+// 11. abs()
+// var a = Math.abs(5.25);
+// document.write(a)
+
+// 12. Pi()
+// var a = Math.PI;
+// document.write(a)
+
+
+// DATE METHODS
+
+// var now = new Date();
+// document.write(now);
+
+// 1. toDateString()
+// var now = new Date();
+// document.write(now.toDateString());
+
+// 2. getDate()
+// var now = new Date();
+// document.write(now.getDate());
+
+// 3. getFullYear()
+// var now = new Date();
+// document.write(now.getFullYear());
+
+// 4. getMonth()
+// var now = new Date();
+// document.write(now.getMonth());
+
+// 5. getDay()
+// var now = new Date();
+// document.write(now.getDay()); //0 - Monday and 6 - Sunday
+
+// 6. getHours()
+// var now = new Date();
+// document.write(now.getHours());
+
+// 7. getMinutes()
+// var now = new Date();
+// document.write(now.getMinutes());
+
+// 8. getSeconds()
+// var now = new Date();
+// document.write(now.getSeconds());
+
+// 9. getMilliseconds()
+// var now = new Date();
+// document.write(now.getMilliseconds());
+
+// 10. setDate()
+// var now = new Date();
+// now.setDate(20)
+// document.write(now);
+
+// 11. setFullYear()
+// var now = new Date();
+// now.setFullYear(2020);
+
+// document.write(now);
+
+// 12. setHours()
+// var now = new Date();
+// now.setHours(15)
+// document.write(now);
+
+// 13. setMilliseconds()
+// var now = new Date();
+// now.setMilliseconds(15)
+// document.write(now);
+
+// 14. setMinutes()
+// var now = new Date();
+// now.setMinutes(15)
+// document.write(now);
+
+// 15. setMonth()
+// var now = new Date();
+// document.write(now);
+
+// 16. setSeconds()
+// var now = new Date();
+// now.setMinutes(15)
+// document.write(now);
+
+// DOM => Document Object Module
