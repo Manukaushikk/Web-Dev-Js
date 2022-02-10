@@ -35,3 +35,9 @@ console.log(num.__proto__ == Number.prototype)
 console.log(bool.__proto__ == Boolean.prototype)
 console.log(arr.__proto__ == Array.prototype)
 console.log(fun.__proto__ == Function.prototype)
+
+// String.prototype inherits for Object.prototype
+
+// typeof Object.create(Boolean.prototype) => "Object"
+
+// prototype means => an object that is associated with every functions and objects by default in JavaScript, where function's prototype property is accessible and modifiable and object's prototype property (aka attribute) is not visible.
