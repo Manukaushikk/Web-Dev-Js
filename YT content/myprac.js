@@ -855,3 +855,10 @@
 // document.write(now);
 
 // DOM => Document Object Module
+// Methods to target the dom Object
+
+// id -> document.getElementById(id)
+
+// class Name -> document.getElementsByClassName(name)
+
+// Tag Name -> document.getElementsByTagName(name)
