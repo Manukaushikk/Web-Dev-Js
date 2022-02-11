@@ -41,3 +41,20 @@ console.log(fun.__proto__ == Function.prototype)
 // typeof Object.create(Boolean.prototype) => "Object"
 
 // prototype means => an object that is associated with every functions and objects by default in JavaScript, where function's prototype property is accessible and modifiable and object's prototype property (aka attribute) is not visible.
+
+console.log(str.charAt(4))
+console.log(typeof str.charAt) // Its a function
+let str2 = "dfdfdgethn"
+
+console.log(str.charAt == str2.charAt) //true
+str.charAt = function() { return 'X' } //does not make a difference
+
+// String.prototype contains all default String functions
+// like charAt, indexOf, substring, slice etc
+
+Array.prototype.joinOriginal = Array.prototype.join
+
+Array.prototype.join = function() {
+    console.log('join called on', this)
+    return this.joinOriginal(...arguments)
+}
