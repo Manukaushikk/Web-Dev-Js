@@ -86,15 +86,123 @@
 
 // console.log(arr3);
 
-var obj1 = {
-    name: "Mk",
-    course: "btech"
-};
+// var obj1 = {
+//     name: "Mk",
+//     course: "btech"
+// };
 
-var obj2 = {
-    age: 21
-};
+// var obj2 = {
+//     age: 21
+// };
 
-var obj3 = {...obj1, ...obj2 };
+// var obj3 = {...obj1, ...obj2 };
 
-console.log(obj3);
+// console.log(obj3);
+
+// Object literals
+
+// let name = "Purvi";
+// let course = "Btech";
+
+// var obj = {
+//     name,
+//     course,
+
+// };
+
+// console.log(obj);
+
+// Another Way
+
+// let n = "name";
+
+// var obj = {
+//     [n]: "Lol",
+//     course: "Bcom",
+
+// };
+
+// console.log(obj);
+// console.log(obj.name);
+
+// Another Way
+
+// let n = "student";
+
+// var obj = {
+//     [n + "name"]: "Lol",
+//     course: "Bcom",
+//     detail: function() {
+//         return `${this.studentname} is student of ${this.course}`
+//     }
+
+// };
+
+// console.log(obj);
+// console.log(obj.detail());
+
+// New function Syntax
+
+// let obj = {
+//     name: "Kuch bhi",
+//     show() {
+//         console.log(this.name);
+//     }
+// };
+// console.log(obj.name);
+
+// let name = "Poori";
+// let course = "CA";
+
+// function student(name, course) {
+//     return { name, course };
+// }
+// console.log(student(name, course));
+
+// Function call stacks
+// function ceo() {
+//     console.log("Let's make a dent in the universe")
+//     cto()
+// }
+
+// function cto() {
+//     console.log("Let's make a gamechanging product0")
+//     vpengg()
+// }
+
+// function vpengg() {
+//     console.log("Let's make a new javascript framework")
+//     techlead()
+// }
+
+// function techlead() {
+//     console.log("Let's port Angular to TypeScript")
+//     developer()
+// }
+
+// function techlead() {
+//     console.log("Let's copy some code form Stackflow")
+//     throw new Error("The code didn't work")
+// }
+// ceo()
+
+// setTimeout && setInterval
+
+// var intervalId = 0;
+// var runcount = 0;
+
+// function sayHello() {
+//     runcount++;
+//     if (runcount > 5) {
+//         clearInterval(intervalId)
+//     }
+//     console.log("Hello !")
+// }
+
+// console.log("And the wait starts ...");
+// var intervalId = setInterval(sayHello, 1000)
+
+// var myfun = function() {
+//     console.log("This runs after 1 sec")
+// }
+// setInterval(myfun, 1000)
