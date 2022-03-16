@@ -206,3 +206,46 @@
 //     console.log("This runs after 1 sec")
 // }
 // setInterval(myfun, 1000)
+// var str = "My name is Manu Kaushik"
+// var output = str.split("").reverse().join("");
+// document.write(output);
+
+// let user = {
+//     name: "Ram Ram Ji",
+//     age: 51,
+//     city: "UP"
+// }
+// let { name, age, city } = user;
+// let { name:a, age:b, city:c } = user;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(name);
+// console.log(age);
+// console.log(city);
+
+// class hello {
+//     message() {
+//         console.log("Hello Everyone");
+//     }
+//     sorry() {
+//         console.log("Sorry Everyone");
+//     }
+// }
+// let a = new hello()
+// a.message()
+// a.sorry()
+
+// constructor example
+// constructor (){
+// console.log("hello");
+// }
+
+// message example
+// message(){
+// console.log("hello");
+// }
+
+// static name() {
+// console.log("hello");
+// }
