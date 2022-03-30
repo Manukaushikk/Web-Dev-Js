@@ -5,6 +5,7 @@ function Person(name, age) {
 
 }
 Person.prototype.isAdult = function() { return this.age >= 18 }
+Person.prototype.city = "DELHI"
 
 let p = new Person('Harry Potter', 15)
 let p2 = new Person('Jeeni Deol', 30)
